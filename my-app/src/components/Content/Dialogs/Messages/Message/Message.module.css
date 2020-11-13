@@ -1,0 +1,12 @@
+.message {
+    margin: 17px 0;
+}
+
+.message:nth-child(1) {
+    margin: 10px 0;
+}
+
+.message:nth-child(6) {
+    margin: 20px 0;
+}
+

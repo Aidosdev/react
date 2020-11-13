@@ -1,0 +1,61 @@
+.navbar {
+    grid-area: n;
+    background-color: pink;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul .item a {
+    color: teal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.active {
+    color: orchid !important;
+}
+
+.parentFriendTag {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.parentFriendTag h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.friend {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.friend p {
+    font-size: 15px;
+    color: rgb(125, 101, 180);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.friendsBlock {
+    width: 100%;
+}
+
+.friendsBlock img {
+    width: 70%;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}

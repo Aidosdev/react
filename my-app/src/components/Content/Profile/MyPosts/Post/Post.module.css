@@ -1,0 +1,14 @@
+.item {
+    color: orchid;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 10%;
+    height: 50px !important;
+    border-radius: 30px;
+}
+
+.like {
+    padding: 10px;
+}

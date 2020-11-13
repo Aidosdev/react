@@ -1,0 +1,33 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .item {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.dialogsItems .item a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.dialogsItems .item a.active {
+    color: goldenrod;
+}
+
+.dialogItemFlex {
+    display: flex;
+}
+
+.dialogItemFlex img {
+    width: 20%;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
